@@ -37,7 +37,7 @@ h1.NumberTitleMain {
     left: 10px;
 }
 
-h1.NumberTitleAboutMe {
+h1.numbertitleaboutme {
     display: flex;
     color: blue;
     font-family: Minecraft;
@@ -922,26 +922,75 @@ header ol li a:hover {
 
 /* media query */
 
-@media (mzx-width: 768px) {
+@media (max-width: 768px) {
     .nav {
        flex-direction: column;
-}
+    }
+    .navicon {
+       background-image: url(../assets/images/open-menu.png);
+    }
+    .navbar-toggler {
+       border: none;
+       border-radius: none;
+       border-color: none;
+    }
+    .navbar>.container-fluid {
+       justify-content: flex-end;
+    } 
+    .navbar-nav {
+       align-items: flex-end;
+    }
+    
+    /* about me mobile */
+
+    h1.numbertitleaboutme {
+        font-size: 150px;
+        display: flex;
+        position: relative;
+        justify-content: flex-start;
+        top: 56px;
+    }
+    h2.SecondTitleAboutMe1 {
+        font-size: 80px;
+        display: flex;
+        position: relative;
+        top: -26px;
+        right: 30px;
+    }
+    h2.SecondTitleAboutMe2 {
+        font-size: 80px;
+        display: flex;
+        position: relative;
+        top: -80px;
+        right: 30px; 
+    }
+    .AboutMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .AboutMeParagraph {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .AboutMePortrait img {
+        position: relative;
+        width: 500px;
+        height: auto;
+        margin-right: -10px;
+        bottom: 30px;
+    }
+    .AboutMeFolder {
+        width: 20% ;
+        position: absolute;
+        left: 50px;
+        bottom: -1520px;
+    }
+    
+
 }
 
-.navicon {
-    background-image: url(../assets/images/open-menu.png);
-}
 
-.navbar-toggler {
-    border: none;
-    border-radius: none;
-    border-color: none;
-}
 
-.navbar>.container-fluid {
-    justify-content: flex-end;
-}
 
-.navbar-nav {
-    align-items: flex-end;
-}
