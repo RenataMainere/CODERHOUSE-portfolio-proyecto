@@ -570,6 +570,20 @@ header ol li a:hover {
     color: deeppink;
 }
 
+.navbar {
+    color: blue;
+    text-decoration: none;
+    font-family: Minecraft;
+    font-size: 30px;
+    transition: all ease 0.3s;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.navbar a:hover {
+    color: deeppink;
+}
+
 /* about me2 */
 
 .AboutMe {
@@ -908,10 +922,26 @@ header ol li a:hover {
 
 /* media query */
 
-@media (min-width: 600px) {
-.nav ol li {
-    display: grid;
-    grid-column: 2;
+@media (mzx-width: 768px) {
+    .nav {
+       flex-direction: column;
 }
 }
 
+.navicon {
+    background-image: url(../assets/images/open-menu.png);
+}
+
+.navbar-toggler {
+    border: none;
+    border-radius: none;
+    border-color: none;
+}
+
+.navbar>.container-fluid {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    align-items: flex-end;
+}
