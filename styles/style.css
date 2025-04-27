@@ -940,7 +940,7 @@ header ol li a:hover {
     .navbar-nav {
        align-items: flex-end;
     }
-    
+
     /* about me mobile */
 
     h1.numbertitleaboutme {
@@ -988,7 +988,27 @@ header ol li a:hover {
         bottom: -1520px;
     }
     
-
+    /* ux ui mobile */
+    .ContainerUxUi #gdr {
+        position: relative;
+        height: 350px;
+        width: 246%;
+        bottom: -40px;
+        left: -248px;
+    }
+    .ContainerUxUi #melete {
+        position: relative;
+        height: 350px;
+        width: 375%;
+        bottom: -100px;
+        left: -282px;
+    }
+    .FooterUxUi p {
+        display: flex;
+        position: relative;
+        bottom: -530px;
+        color: #c9d4f3;
+    }
 }
 
 

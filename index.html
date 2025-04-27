@@ -12,16 +12,21 @@
 <body>
     <header class="HeaderFlex">
       <h1 class="MainTitle"><a href="#">RM</a></h1>
-      <nav>
-         <div>
-            <ol>
-              <li><a href="./pages/sobremi.html">Sobre mi</a></li>
-              <li><a href="./pages/uxui.html">Proyectos UX/UI</a></li>
-              <li><a href="./pages/contacto.html">Contacto</a></li>
-              <li><a href="./pages/visuales.html">Proyectos visuales</a></li>
-         </ol>
-         </div>
-     </nav>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon navicon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="navbar" aria-current="page" href="./pages/sobremi.html">Sobre mi</a>
+              <a class="navbar" href="./pages/uxui.html">UX/UI</a>
+              <a class="navbar" href="./pages/visuales.html">Visuales</a>
+              <a class="navbar" href="./pages/contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>  
 <main>
     <!-- Distintas opciones para ver el portafolio -->
