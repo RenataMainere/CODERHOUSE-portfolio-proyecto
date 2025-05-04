@@ -83,6 +83,14 @@ h2.SecondSecondTitleMain {
     width: 100%;
 }
 
+.carousel-control-prev-icon {
+    background-image: url(../assets/images/n\ back\ \(1\).png);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../assets/images/n\ back\ \(2\).png);
+}
+
 /* container for folder-shaped elements */
 
 .Container {
