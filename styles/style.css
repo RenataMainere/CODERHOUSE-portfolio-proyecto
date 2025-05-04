@@ -77,6 +77,12 @@ h2.SecondSecondTitleMain {
     right: 560px;
 }
 
+.carousel {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
 /* container for folder-shaped elements */
 
 .Container {
@@ -578,6 +584,7 @@ header ol li a:hover {
     transition: all ease 0.3s;
     padding: 20px;
     padding-top: 5px;
+    z-index: 10;
 }
 
 .navbar a:hover {
@@ -856,7 +863,7 @@ header ol li a:hover {
     align-items: flex-start;
     flex-direction: column;
     position: absolute;
-    bottom: -17px;
+    bottom: -29px;
     left: 0px;
 }
   
@@ -886,7 +893,7 @@ header ol li a:hover {
     flex-direction: column;
     position: absolute;
     bottom: -30px;
-    left: 930px;
+    left: 948px;
 }
   
 .ContainerUxUi #gdr:before {
