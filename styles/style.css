@@ -91,6 +91,7 @@ h2.SecondSecondTitleMain {
     background-image: url(../assets/images/n\ back\ \(2\).png);
 }
 
+
 /* container for folder-shaped elements */
 
 .Container {
@@ -1022,10 +1023,11 @@ header ol li a:hover {
     }
 
     /* index */
-    .carousel {
-        position: relative;
-        width: auto;
-        height: auto;
+    .mobile-img {
+        display: block;
+    }
+    .desktop-img {
+        display: none !important;
     }
 
     /* visuales */
@@ -1157,12 +1159,17 @@ header ol li a:hover {
         bottom: -990px;
     }
 
-
-
-
-
 }
 
+@media (min-width: 769px) {
+    /* solo para el carousel */
+    .mobile-img {
+        display: none !important;
+    }
+    .desktop-img {
+        display: block;
+    }
 
+}
 
 
