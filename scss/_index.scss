@@ -1,0 +1,53 @@
+$fontfamily: Minecraft;
+$fontfamily1: Andale Mono;
+$fontcolor: blue;
+
+%secondtitlemain {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15%;
+    color: $fontcolor;
+    font-family: $fontfamily;
+    font-size: 120px;
+    text-align: center;
+    position: absolute;
+}
+
+h1.NumberTitleMain {
+    display: flex;
+    color: $fontcolor;
+    font-family: $fontfamily;
+    font-size: 330px;
+    text-align: left;
+    padding-left: 5%;
+    margin: 100px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+h2.SecondTitleMain {
+    @extend %secondtitlemain;
+    top: 180px;
+    right: 380px;
+}
+
+h2.SecondSecondTitleMain {
+    @extend %secondtitlemain;
+    top: 273px;
+    right: 560px;
+}
+
+.carousel {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../assets/images/n\ back\ \(1\).png);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../assets/images/n\ back\ \(2\).png);
+}

@@ -1,0 +1,19 @@
+%flexnposition {
+    display: flex;
+    position: absolute;
+}
+
+.FooterUxUi {
+    @extend %flexnposition;
+    bottom: 0px;
+}
+
+.FooterContact {
+    @extend %flexnposition;
+    bottom: -490px;
+}
+
+.FooterVisual {
+    @extend %flexnposition;
+    bottom: -20px;
+}

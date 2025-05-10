@@ -1,0 +1,81 @@
+$fontfamily: Minecraft;
+$fontfamily1: Andale Mono;
+$fontcolor: blue;
+
+h1.MainTitle a {
+    color: $fontcolor;
+    font-family: $fontfamily;
+    font-size: 40px;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    transition: all ease 0.3s;
+    padding-bottom: 10px;
+}
+
+h1.MainTitle a:hover {
+    color: deeppink;
+}
+
+header.HeaderFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 20px;
+    text-decoration: none;
+    
+}
+
+header ol li {
+    display:inline-block;
+    list-style: none;
+    align-content: normal;
+    margin: 0 10px;
+}
+    
+header ol li:last-child {
+    margin-right: -15px;
+}    
+
+header ol li a {
+    text-decoration: none;
+    transition: all ease 0.3s;
+    font-family: $fontfamily;
+    font-size: 18px;
+    color: $fontcolor;
+    text-align: right;
+    padding: 20px;
+    width: 60px;
+}
+
+header ol li a:hover { 
+    color: deeppink;
+}
+
+.navbar {
+    color: $fontcolor;
+    text-decoration: none;
+    font-family: $fontfamily;
+    font-size: 30px;
+    transition: all ease 0.3s;
+    padding: 20px;
+    padding-top: 5px;
+    z-index: 10;
+}
+
+.navbar a:hover {
+    color: deeppink;
+}
+
+p {
+    color: $fontcolor;
+    font-family: $fontfamily1;
+    font-size: 16px;
+    margin: 20px;
+}
+
+body {
+    background-color: #E0E3FF;
+}

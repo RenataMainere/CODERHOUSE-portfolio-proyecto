@@ -1,0 +1,240 @@
+
+
+
+@media (max-width: 768px) {
+    .nav {
+       flex-direction: column;
+    }
+    .navicon {
+       background-image: url(../assets/images/open-menu.png);
+    }
+    .navbar-toggler {
+       border: none;
+       border-radius: none;
+       border-color: none;
+    }
+    .navbar>.container-fluid {
+       justify-content: flex-end;
+    } 
+    .navbar-nav {
+       align-items: flex-end;
+    }
+
+    /* about me mobile */
+
+    h1.numbertitleaboutme {
+        font-size: 150px;
+        display: flex;
+        position: relative;
+        justify-content: flex-start;
+        top: 56px;
+    }
+    h2.SecondTitleAboutMe1 {
+        font-size: 80px;
+        display: flex;
+        position: relative;
+        top: -26px;
+        right: 30px;
+    }
+    h2.SecondTitleAboutMe2 {
+        font-size: 80px;
+        display: flex;
+        position: relative;
+        top: -80px;
+        right: 30px; 
+    }
+    .AboutMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .AboutMeParagraph {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .AboutMePortrait img {
+        position: relative;
+        width: 500px;
+        height: auto;
+        margin-right: -10px;
+        bottom: 30px;
+    }
+    .AboutMeFolder {
+        width: 20% ;
+        position: absolute;
+        left: 50px;
+        bottom: -1520px;
+    }
+    
+    /* ux ui mobile */
+    .ContainerUxUi #gdr {
+        position: relative;
+        height: 350px;
+        width: 282%;
+        bottom: -40px;
+        left: -248px;
+    }
+    .ContainerUxUi #melete {
+        position: relative;
+        height: 350px;
+        width: 375%;
+        bottom: -100px;
+        left: -282px;
+    }
+    .FooterUxUi p {
+        display: flex;
+        position: relative;
+        bottom: -530px;
+        color: #c9d4f3;
+    }
+
+    /* index */
+    .mobile-img {
+        display: block;
+    }
+    .desktop-img {
+        display: none !important;
+    }
+
+    /* visuales */
+    .ContainerVisual #trabajo1 {
+        position: relative;
+        height: 350px;
+        width: 100%;
+        bottom: -10px;
+    }
+    .ContainerVisual #trabajo2 {
+        position: relative;
+        height: 350px;
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+    }
+    .ContainerVisual #trabajo3 {
+        position: relative;
+        height: 400px;
+        width: 100%;
+        bottom: 8px;
+        left: 0px;
+    }
+    .FooterVisual p {
+        display: flex;
+        position: relative;
+        bottom: -950px;
+        color: #c9d4f3;
+    }
+    h1.VisualArtTitle {
+        position: relative;
+        font-size: 200px;
+        top: 30px;
+    }
+    h2.SecondTitleVisualArt1 {
+        position: relative;
+        font-size: 130px;
+        left: -80px;
+        top: 10px;
+    }
+    h2.SecondTitleVisualArt2 {
+        position: relative;
+        font-size: 100px;
+        left: -100px;
+        top: -160px;
+    }
+    p.pvisualart {
+        position: relative;
+        padding-right: 10px;
+        left: 0px;
+        top: 90px;
+    }
+
+    /* contacto */
+
+    .ContactTitle {
+        position: relative;
+        font-size: 60px;
+        left: 30px;
+        top: 130px;
+    }
+    .SecondTitleContact {
+        position: relative;
+        font-size: 60px;
+        left: -50px;
+        top: 30px;
+    }
+    .ContactText {
+        position: relative;
+        font-size: 20px;
+        padding-right: 30px;
+        left: 0px;
+        top: 430px;
+        margin: 30px;
+    }
+    .List1 {
+        position: relative;
+        left: -70px;
+        top: 360px;
+    }
+    .List2 {
+        position: relative;
+        left: -70px;
+        top: 360px;
+    }
+    .List3 {
+        position: relative;
+        left: -70px;
+        top: 360px;
+    }
+    .List4 {
+        position: relative;
+        left: -70px;
+        top: 360px;
+    }
+    .ThirdTitleContact {
+        position: relative;
+        left: 7px;
+        top: 790px;
+        text-align: center;
+    }
+    .Name {
+        position: relative;
+        left: 270px;
+        top: 799px;
+    }
+    .Mail {
+        position: relative;
+        left: 34px;
+        top: 900px;
+    }
+    .Message {
+        position: relative;
+        left: -200px;
+        top: 1000px;
+    }
+    input.SendButtonContact {
+        position: relative;
+        left: 220px;
+        top: 1020px;
+    }
+    input.DeleteButtonContact {
+        position: relative;
+        left: 220px;
+        top: 1000px;
+    }
+    .FooterContact {
+        position: relative;
+        bottom: -990px;
+    }
+
+}
+
+@media (min-width: 769px) {
+    /* solo para el carousel */
+    .mobile-img {
+        display: none !important;
+    }
+    .desktop-img {
+        display: block;
+    }
+
+}

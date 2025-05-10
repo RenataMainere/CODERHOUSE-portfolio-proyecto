@@ -1,0 +1,107 @@
+$fontfamily: Minecraft;
+$fontfamily1: Andale Mono;
+$fontcolor: blue;
+
+%options {
+    display: flex;
+    column-gap: 1em;
+    position: relative;
+}
+
+%containersubmain {
+    display: flex;
+    position: relative;
+}
+
+.Container {
+    padding: 1em;
+    display: grid;
+    justify-content: end;
+    grid-template-columns: 200px;
+    grid-gap: 2em;
+    margin: 10%;   
+  }
+
+  .SubtitleMain {
+    height: 105px;
+    width: 100%;
+    position: relative;
+    background-color: blue;
+    border-radius: 0 6px 6px 6px;
+    padding: 0.25em 0.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  
+  .SubtitleMain:before {
+    content: "";
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    background-color: blue;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+  }
+
+  .Options1 {
+    @extend %options;
+    bottom: 310px;
+    right: 200px;
+  }
+
+  .Options2 {
+    @extend %options;
+    bottom: 610px;
+    right: 200px;
+  }
+
+  .Options3 {
+    @extend %options;
+    bottom: 910px;
+    right: 630px;
+  }
+
+  .Options4 {
+    @extend %options;
+    bottom: 1250px;
+    right: -60px;
+  }
+
+
+h4.SubtitleMain {
+    color: #c9d4f3;
+    font-family: $fontfamily1;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.Container #SubMain1 {
+    @extend %containersubmain;
+    left: -450px;
+    bottom: 190px;
+
+}
+
+.Container #SubMain2 {
+    @extend %containersubmain;
+    left: -680px;
+    bottom: 490px;
+
+}
+
+.Container #SubMain3 {
+    @extend %containersubmain;
+    left: -450px;
+    bottom: 790px;
+
+}
+
+.Container #SubMain4 {
+    @extend %containersubmain;
+    left: -190px;
+    bottom: 1100px;
+
+}

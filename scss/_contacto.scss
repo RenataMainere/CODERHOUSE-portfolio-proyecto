@@ -1,0 +1,256 @@
+$fontfamily: Minecraft;
+$fontfamily1: Andale Mono;
+$fontcolor: blue;
+
+%flexnpositioncontact {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 30%;
+    left: 620px;
+}
+
+%list {
+    height: 105px;
+    position: relative;
+    background-color: #95b0f8;
+    border-radius: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: blue;
+    padding: 0.25em 0.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+}
+
+%listbefore {
+    content: "";
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    border-style: solid;
+    border-color: blue;
+    background-color: #95b0f8;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+}
+
+%input {
+  align-items: center;
+  background-color: blue;
+  border: 2px solid blue;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: blue;
+  font-family: Andale Mono;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  width: 310px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: absolute;
+  left: 800px;
+}
+
+%inputntextarea {
+    width: 50%;
+    padding: 12px;
+    margin: 20px 0;
+}
+
+%form {
+    color: blue;
+    font-family: Andale Mono;
+    font-size: 16px;
+    margin: 20px;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+}
+
+.Contact {
+    position: relative;
+}
+
+h1.ContactTitle {
+    position: absolute;
+    color: blue;
+    font-family: $fontfamily;
+    font-size: 330px;
+    text-align: right;
+    bottom: -900px;
+    right: 0px;
+    padding: 10px;
+}
+
+.ContactText {
+    position: relative;
+    bottom: -990px;
+    left: 10px;
+    margin-right: 1570px;
+    margin-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2.SecondTitleContact {
+    color: blue;
+    font-family: $fontfamily;
+    font-size: 120px;
+    text-align: left;
+    position: absolute;
+    top: 10px;
+    margin-left: 100px;
+}
+
+div.FormContactName {
+    @extend %form;
+    bottom: 200px;
+    left: 400px;
+}
+
+div.FormContactMail {
+    @extend %form;
+    bottom: 140px;
+    left: 400px;
+}
+
+div.FormContactMessage {
+    @extend %form;
+    bottom: 60px;
+    left: 400px;
+}
+
+h2.ThirdTitleContact {
+    color: blue;
+    font-family: $fontfamily1;
+    font-size: 20px;
+    margin: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+input.SendButtonContact {
+  @extend %input;
+  bottom: -350px;
+}
+
+input.DeleteButtonContact {
+    @extend %input;
+    bottom: -410px;
+}
+
+input {
+    @extend %inputntextarea;
+}
+
+textarea {
+    @extend %inputntextarea;
+}
+
+.List1 {
+    @extend %list;
+    left: 1250px;
+    bottom: -30px;
+}
+
+.List1:before {
+    @extend %listbefore;
+}
+
+.List2 {
+    @extend %list;
+    left: 1150px;
+    bottom: -120px;
+}
+
+.List2:before {
+    @extend %listbefore;
+}
+
+.List3 {
+    @extend %list;
+    left: 1050px;
+    bottom: -210px;
+}
+
+.List3:before {
+    @extend %listbefore;
+}
+
+.List4 {
+    @extend %list;
+    left: 950px;
+    bottom: -300px;
+}
+
+.List4:before {
+    @extend %listbefore;
+}
+
+.ContactFlex {
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    
+}
+
+.ContactFlex li a:hover {
+    list-style: none;
+    color: #e1e8fc;
+}
+
+.ContactFlex a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: $fontfamily;
+    font-size: 26px;
+    transition: all ease 0.3s;
+    color: $fontcolor;
+}
+
+.form-label {
+    font-family: $fontfamily1;
+    font-size: 18px;
+    color: $fontcolor;
+}
+
+.Name {
+    @extend %flexnpositioncontact;
+    bottom: -40px;
+}
+
+.Mail {
+    @extend %flexnpositioncontact;
+    bottom: -130px;
+}
+
+.Message {
+    @extend %flexnpositioncontact;
+    bottom: -220px;
+}

@@ -1,0 +1,102 @@
+$fontfamily: Minecraft;
+$fontfamily1: Andale Mono;
+$fontcolor: blue;
+
+%title {
+    position: relative;
+    color: $fontcolor;
+    font-family: $fontfamily;
+    font-size: 120px;
+    text-align: center;
+}
+
+%folderbefore {
+    content: "";
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    border-style: solid;
+    border-color: blue;
+    background-color: blue;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+}
+
+h1.AboutMeTitle {
+    color: $fontcolor;
+    font-family: $fontfamily;
+    font-size: 130px;
+    text-align: center;
+}
+
+h2.SecondTitleAboutMe1 {
+    @extend %title;
+    left: 80px;
+    bottom: 40px;
+}
+
+h2.SecondTitleAboutMe2 {
+    @extend %title;
+    left: 278px;
+    bottom: 95px;
+}
+
+h1.numbertitleaboutme {
+    display: flex;
+    color: $fontcolor;
+    font-family: $fontfamily;
+    font-size: 330px;
+    text-align: center;
+    justify-content: space-around;
+    padding-left: 5%;
+    margin: 0px;
+    position: relative;
+    top: 116px;
+    left: 10px;
+}
+
+.AboutMe {
+    display: flex;
+    align-items: flex-start;
+}
+
+.AboutMeText {
+    display: block;
+    margin-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.AboutMePortrait img {
+    position: relative;
+    width: 800px;
+    height: auto;
+    right: -10px;
+}
+
+.AboutMeParagraph {
+    position: relative;
+    bottom: 80px;
+    margin-left: 70px;
+}
+
+.AboutMeFolder {
+    height: 105px;
+    width: 10%;
+    position: relative;
+    background-color: blue;
+    border-radius: 0 6px 6px 6px;
+    padding: 0.25em 0.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    left: 860px;
+    bottom: 117px;
+}
+
+.AboutMeFolder:before {
+    @extend %folderbefore;
+}
+

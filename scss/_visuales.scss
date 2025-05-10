@@ -1,0 +1,120 @@
+$fontfamily: Minecraft;
+$fontfamily1: Andale Mono;
+$fontcolor: blue;
+
+%titlevisualart {
+    color: $fontcolor;
+    font-family: $fontfamily;
+    position: absolute;
+}
+
+%containerbefore {
+    content: "";
+    width: 50%;
+    height: 12px;
+    border-radius: 0 20px 0 0;
+    position: absolute;
+    top: -13px;
+    left: -1px;
+}
+
+h1.VisualArtTitle {
+    @extend %titlevisualart;
+    font-size: 300px;
+    text-align: left;
+    left: 30px;
+    top: 200px;
+}
+
+h2.SecondTitleVisualArt1 {
+    @extend %titlevisualart;
+    font-size: 120px;
+    text-align: right;
+    right: 880px;
+    top: 150px;
+}
+
+h2.SecondTitleVisualArt2 {
+    @extend %titlevisualart;
+    font-size: 120px;
+    text-align: right;
+    right: 710px;
+    top: 250px;
+}
+
+.ContainerVisual #trabajo1 {
+    height: 305px;
+    width: 50%;
+    font-family: $fontfamily;
+    font-size: 40px;
+    color: aliceblue;
+    position: relative;
+    background-color: #95b0f8;
+    border-radius: 0 6px 6px 6px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    bottom: -30px;
+    left: 0px;
+}
+  
+.ContainerVisual #trabajo1:before {
+    @extend %containerbefore;
+    background-color: #95b0f8;
+}
+
+.ContainerVisual #trabajo2 {
+    height: 450px;
+    width: 50%;
+    position: relative;
+    font-family: $fontfamily;
+    font-size: 40px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 0 6px 6px 6px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    bottom: -30px;
+    left: 949px;
+}
+  
+.ContainerVisual #trabajo2:before {
+    @extend %containerbefore;
+    background-color: blue;
+}
+
+.ContainerVisual #trabajo3 {
+    height: 350px;
+    width: 25%;
+    position: relative;
+    font-family: $fontfamily;
+    font-size: 40px;
+    color: aliceblue;
+    background-color: rgb(109, 109, 219);
+    border-radius: 0 6px 6px 6px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    bottom: 420px;
+    left: 1423px;
+}
+  
+.ContainerVisual #trabajo3:before {
+    @extend %containerbefore;
+    background-color: rgb(109, 109, 219);
+}
+
+.pvisualart {
+    display: block;
+    padding-right: 900px;
+    position: absolute;
+    top: 350px;
+    left: 470px;
+}
