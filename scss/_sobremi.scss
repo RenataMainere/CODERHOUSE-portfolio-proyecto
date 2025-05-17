@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url(../assets/fonts/Minecraft.ttf);
+}
+
 $fontfamily: Minecraft;
 $fontfamily1: Andale Mono;
 $fontcolor: blue;
@@ -10,18 +15,6 @@ $fontcolor: blue;
     text-align: center;
 }
 
-%folderbefore {
-    content: "";
-    width: 50%;
-    height: 12px;
-    border-radius: 0 20px 0 0;
-    border-style: solid;
-    border-color: blue;
-    background-color: blue;
-    position: absolute;
-    top: -13px;
-    left: -1px;
-}
 
 h1.AboutMeTitle {
     color: $fontcolor;
@@ -81,22 +74,4 @@ h1.numbertitleaboutme {
     margin-left: 70px;
 }
 
-.AboutMeFolder {
-    height: 105px;
-    width: 10%;
-    position: relative;
-    background-color: blue;
-    border-radius: 0 6px 6px 6px;
-    padding: 0.25em 0.5em;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    left: 860px;
-    bottom: 117px;
-}
-
-.AboutMeFolder:before {
-    @extend %folderbefore;
-}
 

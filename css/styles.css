@@ -75,6 +75,10 @@ body {
   background-color: #E0E3FF;
 }
 
+@font-face {
+  font-family: "Minecraft";
+  src: url(../assets/fonts/Minecraft.ttf);
+}
 h2.SecondSecondTitleMain, h2.SecondTitleMain {
   display: flex;
   justify-content: flex-end;
@@ -123,6 +127,10 @@ h2.SecondSecondTitleMain {
   background-image: url(../assets/images/n\ back\ \(2\).png);
 }
 
+@font-face {
+  font-family: "Minecraft";
+  src: url(../assets/fonts/Minecraft.ttf);
+}
 .Options4, .Options3, .Options2, .Options1 {
   display: flex;
   column-gap: 1em;
@@ -214,6 +222,10 @@ h4.SubtitleMain {
   bottom: 1100px;
 }
 
+@font-face {
+  font-family: "Minecraft";
+  src: url(../assets/fonts/Minecraft.ttf);
+}
 .Message, .Mail, .Name {
   display: flex;
   position: absolute;
@@ -430,25 +442,16 @@ input.DeleteButtonContact {
   bottom: -220px;
 }
 
+@font-face {
+  font-family: "Minecraft";
+  src: url(../assets/fonts/Minecraft.ttf);
+}
 h2.SecondTitleAboutMe2, h2.SecondTitleAboutMe1 {
   position: relative;
   color: blue;
   font-family: Minecraft;
   font-size: 120px;
   text-align: center;
-}
-
-.AboutMeFolder:before {
-  content: "";
-  width: 50%;
-  height: 12px;
-  border-radius: 0 20px 0 0;
-  border-style: solid;
-  border-color: blue;
-  background-color: blue;
-  position: absolute;
-  top: -13px;
-  left: -1px;
 }
 
 h1.AboutMeTitle {
@@ -507,21 +510,10 @@ h1.numbertitleaboutme {
   margin-left: 70px;
 }
 
-.AboutMeFolder {
-  height: 105px;
-  width: 10%;
-  position: relative;
-  background-color: blue;
-  border-radius: 0 6px 6px 6px;
-  padding: 0.25em 0.5em;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  left: 860px;
-  bottom: 117px;
+@font-face {
+  font-family: "Minecraft";
+  src: url(../assets/fonts/Minecraft.ttf);
 }
-
 h1.UxuiTitle {
   color: blue;
   font-family: Minecraft;
@@ -608,6 +600,10 @@ h4.SubtitleUxui {
   left: -1px;
 }
 
+@font-face {
+  font-family: "Minecraft";
+  src: url(../assets/fonts/Minecraft.ttf);
+}
 h2.SecondTitleVisualArt2, h2.SecondTitleVisualArt1, h1.VisualArtTitle {
   color: blue;
   font-family: Minecraft;
@@ -719,6 +715,10 @@ h2.SecondTitleVisualArt2 {
   left: 470px;
 }
 
+@font-face {
+  font-family: "Minecraft";
+  src: url(../assets/fonts/Minecraft.ttf);
+}
 .FooterVisual, .FooterContact, .FooterUxUi {
   display: flex;
   position: absolute;
@@ -736,6 +736,10 @@ h2.SecondTitleVisualArt2 {
   bottom: -20px;
 }
 
+@font-face {
+  font-family: "Minecraft";
+  src: url(../assets/fonts/Minecraft.ttf);
+}
 @media (max-width: 768px) {
   .nav {
     flex-direction: column;
