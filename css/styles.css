@@ -3,7 +3,7 @@
   src: url(../assets/fonts/Minecraft.ttf);
 }
 @font-face {
-  font-family: "andale-mono";
+  font-family: "Andale Mono";
   src: url(../assets/fonts/andalemo.ttf);
 }
 h1.MainTitle a {
@@ -88,7 +88,7 @@ body {
   src: url(../assets/fonts/Minecraft.ttf);
 }
 @font-face {
-  font-family: "andale-mono";
+  font-family: "Andale Mono";
   src: url(../assets/fonts/andalemo.ttf);
 }
 h2.SecondSecondTitleMain, h2.SecondTitleMain {
@@ -144,7 +144,7 @@ h2.SecondSecondTitleMain {
   src: url(../assets/fonts/Minecraft.ttf);
 }
 @font-face {
-  font-family: "andale-mono";
+  font-family: "Andale Mono";
   src: url(../assets/fonts/andalemo.ttf);
 }
 .Options4, .Options3, .Options2, .Options1 {
@@ -243,7 +243,7 @@ h4.SubtitleMain {
   src: url(../assets/fonts/Minecraft.ttf);
 }
 @font-face {
-  font-family: "andale-mono";
+  font-family: "Andale Mono";
   src: url(../assets/fonts/andalemo.ttf);
 }
 .Message, .Mail, .Name {
@@ -467,7 +467,7 @@ input.DeleteButtonContact {
   src: url(../assets/fonts/Minecraft.ttf);
 }
 @font-face {
-  font-family: "andale-mono";
+  font-family: "Andale Mono";
   src: url(../assets/fonts/andalemo.ttf);
 }
 h2.SecondTitleAboutMe2, h2.SecondTitleAboutMe1 {
@@ -539,7 +539,7 @@ h1.numbertitleaboutme {
   src: url(../assets/fonts/Minecraft.ttf);
 }
 @font-face {
-  font-family: "andale-mono";
+  font-family: "Andale Mono";
   src: url(../assets/fonts/andalemo.ttf);
 }
 h1.UxuiTitle {
@@ -633,7 +633,7 @@ h4.SubtitleUxui {
   src: url(../assets/fonts/Minecraft.ttf);
 }
 @font-face {
-  font-family: "andale-mono";
+  font-family: "Andale Mono";
   src: url(../assets/fonts/andalemo.ttf);
 }
 h2.SecondTitleVisualArt2, h2.SecondTitleVisualArt1, h1.VisualArtTitle {
@@ -752,7 +752,7 @@ h2.SecondTitleVisualArt2 {
   src: url(../assets/fonts/Minecraft.ttf);
 }
 @font-face {
-  font-family: "andale-mono";
+  font-family: "Andale Mono";
   src: url(../assets/fonts/andalemo.ttf);
 }
 .FooterVisual, .FooterContact, .FooterUxUi {
@@ -777,7 +777,7 @@ h2.SecondTitleVisualArt2 {
   src: url(../assets/fonts/Minecraft.ttf);
 }
 @font-face {
-  font-family: "andale-mono";
+  font-family: "Andale Mono";
   src: url(../assets/fonts/andalemo.ttf);
 }
 @media (max-width: 768px) {
