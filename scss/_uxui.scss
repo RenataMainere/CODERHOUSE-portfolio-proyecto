@@ -43,7 +43,6 @@ h4.SubtitleUxui {
     align-items: flex-start;
     flex-direction: column;
     position: absolute;
-    bottom: -29px;
     left: 0px;
 }
 
@@ -60,7 +59,7 @@ h4.SubtitleUxui {
 }
 
 .ContainerUxUi #gdr {
-    height: 450px;
+    height: 305px;
     width: 50%;
     position: relative;
     font-family: $fontfamily;
@@ -73,8 +72,7 @@ h4.SubtitleUxui {
     align-items: flex-start;
     flex-direction: column;
     position: absolute;
-    bottom: -30px;
-    left: 948px;
+    bottom: -190px;
 }
   
 .ContainerUxUi #gdr:before {
