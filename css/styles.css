@@ -1007,5 +1007,13 @@ h2.SecondTitleVisualArt2 {
     display: block;
   }
 }
+@font-face {
+  font-family: "Minecraft";
+  src: url(../assets/fonts/Minecraft.ttf);
+}
+@font-face {
+  font-family: "Andale Mono";
+  src: url(../assets/fonts/andalemo.ttf);
+}
 
 /*# sourceMappingURL=styles.css.map */

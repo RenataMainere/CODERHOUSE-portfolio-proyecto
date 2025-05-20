@@ -1,16 +1,4 @@
-@font-face {
-  font-family: "Minecraft";
-  src: url(../assets/fonts/Minecraft.ttf);
-}
-
-@font-face {
-  font-family: "Andale Mono";
-  src: url(../assets/fonts/andalemo.ttf);
-}
-
-$fontfamily: Minecraft;
-$fontfamily1: Andale Mono;
-$fontcolor: blue;
+@import "variables";
 
 h1.MainTitle a {
     color: $fontcolor;
