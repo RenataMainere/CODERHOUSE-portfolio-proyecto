@@ -651,24 +651,24 @@ h2.SecondTitleVisualArt2, h2.SecondTitleVisualArt1, h1.VisualArtTitle {
 }
 
 h1.VisualArtTitle {
-  font-size: 300px;
+  font-size: 200px;
   text-align: left;
   left: 30px;
   top: 200px;
 }
 
 h2.SecondTitleVisualArt1 {
-  font-size: 120px;
+  font-size: 100px;
   text-align: right;
-  right: 880px;
-  top: 150px;
+  right: 380px;
+  top: 250px;
 }
 
 h2.SecondTitleVisualArt2 {
-  font-size: 120px;
+  font-size: 100px;
   text-align: right;
-  right: 710px;
-  top: 250px;
+  right: 370px;
+  top: 350px;
 }
 
 .ContainerVisual #trabajo1 {
@@ -685,7 +685,7 @@ h2.SecondTitleVisualArt2 {
   align-items: flex-start;
   flex-direction: column;
   position: absolute;
-  bottom: -30px;
+  bottom: -342px;
   left: 0px;
 }
 
@@ -707,8 +707,8 @@ h2.SecondTitleVisualArt2 {
   align-items: flex-start;
   flex-direction: column;
   position: absolute;
-  bottom: -30px;
-  left: 949px;
+  bottom: -342px;
+  left: 629px;
 }
 
 .ContainerVisual #trabajo2:before {
@@ -729,8 +729,8 @@ h2.SecondTitleVisualArt2 {
   align-items: flex-start;
   flex-direction: column;
   position: absolute;
-  bottom: 420px;
-  left: 1423px;
+  bottom: 107px;
+  left: 943px;
 }
 
 .ContainerVisual #trabajo3:before {
@@ -739,10 +739,9 @@ h2.SecondTitleVisualArt2 {
 
 .pvisualart {
   display: block;
-  padding-right: 900px;
+  padding-right: 800px;
   position: absolute;
-  top: 350px;
-  left: 470px;
+  top: 400px;
 }
 
 @font-face {
@@ -767,7 +766,7 @@ h2.SecondTitleVisualArt2 {
 }
 
 .FooterVisual {
-  bottom: -20px;
+  bottom: -320px;
 }
 
 @font-face {
@@ -845,21 +844,21 @@ h2.SecondTitleVisualArt2 {
   .ContainerUxUi #gdr {
     position: relative;
     height: 350px;
-    width: 282%;
+    width: 224%;
     bottom: -40px;
     left: -248px;
   }
   .ContainerUxUi #melete {
     position: relative;
     height: 350px;
-    width: 375%;
+    width: 297%;
     bottom: -100px;
     left: -282px;
   }
   .FooterUxUi p {
     display: flex;
     position: relative;
-    bottom: -530px;
+    bottom: -370px;
     color: #c9d4f3;
   }
   /* index */
@@ -893,7 +892,7 @@ h2.SecondTitleVisualArt2 {
   .FooterVisual p {
     display: flex;
     position: relative;
-    bottom: -950px;
+    bottom: -990px;
     color: #c9d4f3;
   }
   h1.VisualArtTitle {
@@ -904,7 +903,7 @@ h2.SecondTitleVisualArt2 {
   h2.SecondTitleVisualArt1 {
     position: relative;
     font-size: 130px;
-    left: -80px;
+    left: -120px;
     top: 10px;
   }
   h2.SecondTitleVisualArt2 {
@@ -915,7 +914,7 @@ h2.SecondTitleVisualArt2 {
   }
   p.pvisualart {
     position: relative;
-    padding-right: 10px;
+    padding-right: 70px;
     left: 0px;
     top: 90px;
   }
