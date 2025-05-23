@@ -5,7 +5,7 @@
     position: absolute;
     align-items: center;
     width: 30%;
-    left: 620px;
+    left: 10px;
 }
 
 %list {
@@ -64,7 +64,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   position: absolute;
-  left: 800px;
+  left: 20px;
 }
 
 %inputntextarea {
@@ -94,16 +94,16 @@ h1.ContactTitle {
     font-size: 330px;
     text-align: right;
     bottom: -900px;
-    right: 0px;
+    right: 40px;
     padding: 10px;
 }
 
 .ContactText {
     position: relative;
-    bottom: -990px;
+    bottom: -150px;
     left: 10px;
-    margin-right: 1570px;
-    margin-left: 70px;
+    margin-right: 400px;
+    margin-left: 90px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -142,17 +142,19 @@ h2.ThirdTitleContact {
     font-size: 20px;
     margin: 20px;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
+    position: relative;
+    bottom: -130px;
 }
 
 input.SendButtonContact {
   @extend %input;
-  bottom: -350px;
+  bottom: -470px;
 }
 
 input.DeleteButtonContact {
     @extend %input;
-    bottom: -410px;
+    bottom: -550px;
 }
 
 input {
@@ -165,8 +167,8 @@ textarea {
 
 .List1 {
     @extend %list;
-    left: 1250px;
-    bottom: -30px;
+    left: 650px;
+    bottom: -80px;
 }
 
 .List1:before {
@@ -175,8 +177,8 @@ textarea {
 
 .List2 {
     @extend %list;
-    left: 1150px;
-    bottom: -120px;
+    left: 450px;
+    bottom: -160px;
 }
 
 .List2:before {
@@ -185,8 +187,8 @@ textarea {
 
 .List3 {
     @extend %list;
-    left: 1050px;
-    bottom: -210px;
+    left: 310px;
+    bottom: -240px;
 }
 
 .List3:before {
@@ -195,8 +197,8 @@ textarea {
 
 .List4 {
     @extend %list;
-    left: 950px;
-    bottom: -300px;
+    left: 210px;
+    bottom: -320px;
 }
 
 .List4:before {
@@ -240,15 +242,15 @@ textarea {
 
 .Name {
     @extend %flexnpositioncontact;
-    bottom: -40px;
+    bottom: -170px;
 }
 
 .Mail {
     @extend %flexnpositioncontact;
-    bottom: -130px;
+    bottom: -270px;
 }
 
 .Message {
     @extend %flexnpositioncontact;
-    bottom: -220px;
+    bottom: -370px;
 }

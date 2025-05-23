@@ -78,7 +78,7 @@ h2.SecondTitleVisualArt2 {
     flex-direction: column;
     position: absolute;
     bottom: -342px;
-    left: 629px;
+    left: 799px;
 }
   
 .ContainerVisual #trabajo2:before {
@@ -86,28 +86,6 @@ h2.SecondTitleVisualArt2 {
     background-color: blue;
 }
 
-.ContainerVisual #trabajo3 {
-    height: 350px;
-    width: 25%;
-    position: relative;
-    font-family: $fontfamily;
-    font-size: 40px;
-    color: aliceblue;
-    background-color: rgb(109, 109, 219);
-    border-radius: 0 6px 6px 6px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    position: absolute;
-    bottom: 107px;
-    left: 943px;
-}
-  
-.ContainerVisual #trabajo3:before {
-    @extend %containerbefore;
-    background-color: rgb(109, 109, 219);
-}
 
 .pvisualart {
     display: block;

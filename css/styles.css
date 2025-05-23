@@ -251,7 +251,7 @@ h4.SubtitleMain {
   position: absolute;
   align-items: center;
   width: 30%;
-  left: 620px;
+  left: 10px;
 }
 
 .List4, .List3, .List2, .List1 {
@@ -310,7 +310,7 @@ input.DeleteButtonContact, input.SendButtonContact {
   -webkit-user-select: none;
   touch-action: manipulation;
   position: absolute;
-  left: 800px;
+  left: 20px;
 }
 
 textarea, input {
@@ -340,16 +340,16 @@ h1.ContactTitle {
   font-size: 330px;
   text-align: right;
   bottom: -900px;
-  right: 0px;
+  right: 40px;
   padding: 10px;
 }
 
 .ContactText {
   position: relative;
-  bottom: -990px;
+  bottom: -150px;
   left: 10px;
-  margin-right: 1570px;
-  margin-left: 70px;
+  margin-right: 400px;
+  margin-left: 90px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -385,35 +385,37 @@ h2.ThirdTitleContact {
   font-size: 20px;
   margin: 20px;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
+  position: relative;
+  bottom: -130px;
 }
 
 input.SendButtonContact {
-  bottom: -350px;
+  bottom: -470px;
 }
 
 input.DeleteButtonContact {
-  bottom: -410px;
+  bottom: -550px;
 }
 
 .List1 {
-  left: 1250px;
-  bottom: -30px;
+  left: 650px;
+  bottom: -80px;
 }
 
 .List2 {
-  left: 1150px;
-  bottom: -120px;
+  left: 450px;
+  bottom: -160px;
 }
 
 .List3 {
-  left: 1050px;
-  bottom: -210px;
+  left: 310px;
+  bottom: -240px;
 }
 
 .List4 {
-  left: 950px;
-  bottom: -300px;
+  left: 210px;
+  bottom: -320px;
 }
 
 .ContactFlex {
@@ -451,15 +453,15 @@ input.DeleteButtonContact {
 }
 
 .Name {
-  bottom: -40px;
+  bottom: -170px;
 }
 
 .Mail {
-  bottom: -130px;
+  bottom: -270px;
 }
 
 .Message {
-  bottom: -220px;
+  bottom: -370px;
 }
 
 @font-face {
@@ -523,9 +525,10 @@ h1.numbertitleaboutme {
 
 .AboutMePortrait img {
   position: relative;
-  width: 800px;
+  width: 400px;
   height: auto;
-  right: -10px;
+  right: 30px;
+  bottom: -300px;
 }
 
 .AboutMeParagraph {
@@ -640,7 +643,7 @@ h2.SecondTitleVisualArt2, h2.SecondTitleVisualArt1, h1.VisualArtTitle {
   position: absolute;
 }
 
-.ContainerVisual #trabajo3:before, .ContainerVisual #trabajo2:before, .ContainerVisual #trabajo1:before {
+.ContainerVisual #trabajo2:before, .ContainerVisual #trabajo1:before {
   content: "";
   width: 50%;
   height: 12px;
@@ -708,33 +711,11 @@ h2.SecondTitleVisualArt2 {
   flex-direction: column;
   position: absolute;
   bottom: -342px;
-  left: 629px;
+  left: 799px;
 }
 
 .ContainerVisual #trabajo2:before {
   background-color: blue;
-}
-
-.ContainerVisual #trabajo3 {
-  height: 350px;
-  width: 25%;
-  position: relative;
-  font-family: Minecraft;
-  font-size: 40px;
-  color: aliceblue;
-  background-color: rgb(109, 109, 219);
-  border-radius: 0 6px 6px 6px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  position: absolute;
-  bottom: 107px;
-  left: 943px;
-}
-
-.ContainerVisual #trabajo3:before {
-  background-color: rgb(109, 109, 219);
 }
 
 .pvisualart {
@@ -762,7 +743,7 @@ h2.SecondTitleVisualArt2 {
 }
 
 .FooterContact {
-  bottom: -490px;
+  bottom: -640px;
 }
 
 .FooterVisual {
