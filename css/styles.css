@@ -340,7 +340,7 @@ h1.ContactTitle {
   font-size: 330px;
   text-align: right;
   bottom: -900px;
-  right: 40px;
+  right: 80px;
   padding: 10px;
 }
 
@@ -711,7 +711,7 @@ h2.SecondTitleVisualArt2 {
   flex-direction: column;
   position: absolute;
   bottom: -342px;
-  left: 799px;
+  left: 759px;
 }
 
 .ContainerVisual #trabajo2:before {
